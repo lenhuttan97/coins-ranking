@@ -15,7 +15,6 @@ function RenderPageNumber(props) {
     const dispatch = useDispatch();
 
     const changePage = (page) => {
-        console.log("onclick page " + page)
             dispatch(setCurentPage(page));
             dispatch(getListCoins(page));
        }
@@ -82,7 +81,6 @@ function TableCoins(props) {
     const dispatch = useDispatch();
     const [direction, setDirection] = useState(true)
     const sortCoin = (order, direction) => {
-        console.log("onclick sort " + order + "  " + direction);
         const order1 = {
             "order":order,
             "direction": direction
@@ -99,7 +97,6 @@ function TableCoins(props) {
 
         if (!isFisrt && isloading){
             setCoins(data);
-            console.log(coins)
         } 
     }
     )

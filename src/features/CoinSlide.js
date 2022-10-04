@@ -11,10 +11,8 @@ export const getCoinDetail = createAsyncThunk(
   'coins/fetchCoinDetail',
   async (uuid) => {
     const response = await getAPICoinDetail(uuid);
-    console.log(uuid)
     if (response.ok) {
       const jsonData =  response.json();
-      console.log(jsonData)
       return jsonData;
     }
    }

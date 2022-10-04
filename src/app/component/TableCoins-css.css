@@ -37,6 +37,7 @@
   align-items: center;
   padding-left: 5%;
   width: 30%;
+  cursor: pointer;
 }
 .table-coins .table-content .header-table li:first-child {
   width: 50%;

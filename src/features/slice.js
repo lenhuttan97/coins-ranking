@@ -38,7 +38,6 @@ export const getListCoins = createAsyncThunk(
 export const getSortCoins = createAsyncThunk(
   'coins/sortCoins',
   async (order) => {
-       console.log("onclick sort " + order.order + "  " + order.direction)
     const response = await sortCoins(order);
     if (response.ok) {
       const jsonData =  response.json();
@@ -82,7 +81,6 @@ export const listCoinsSlice = createSlice({
       })
       .addCase(getListCoins.fulfilled, (state, action) => {
         state.status = true;
-        console.log(action.payload.data.coins)
         state.coins = action.payload.data.coins;
         state.stats = action.payload.data.stats;
         state.totalPage= setTotalPage(action.payload.data.stats.total);

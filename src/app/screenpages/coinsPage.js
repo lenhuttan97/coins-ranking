@@ -29,13 +29,6 @@ function DrawnChart(props) {
     }
 
 
-console.log(max)
-
-console.log(min)
-
-    console.log(data)
-
-
     const options = {
         theme: "light2",
         animationEnabled: true,
