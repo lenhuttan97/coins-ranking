@@ -4,6 +4,12 @@
     box-sizing: border-box;
   }
 
+  .body {
+    border-left: 1px solid #1d5235;
+    border-bottom: 1px solid #1d5235;
+    
+  }
+
   .container {
     max-width: 1440px;
     margin: 0 auto;

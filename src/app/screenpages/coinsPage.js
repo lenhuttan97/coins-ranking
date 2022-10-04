@@ -79,7 +79,7 @@ function CoinsPage(props) {
     })
 
     return (
-        <div>
+        <div className='body'>
             <header className='container'>
                 <Header
                     language="en"
