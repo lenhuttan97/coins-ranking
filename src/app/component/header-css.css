@@ -1,0 +1,143 @@
+
+  .header {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+   }
+
+  .header .logo {
+    align-items: center;
+  }
+
+  .header .logo img{
+   width: 50px;
+margin-right: 5%;
+  }
+
+  .header .logo a{
+    text-decoration: none;
+    color: rgb(8, 123, 64);
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .header .slogan{
+    position: relative;
+    left: -250px;
+    transform: translateY(5px);
+  }
+
+  .header .input-search{
+/* display: none; */
+width: 50%;
+height: 50%;
+border-radius: 25px;
+border: 1px solid #7cb094;
+padding-left: 20px;
+font-size: 1.2em;
+transition: all 0.5s ease;
+  }
+
+  .header .left-side{
+width: 17%;
+align-items: center;
+justify-content: space-around;
+}
+
+header .left-side .dropdown{
+position: relative;
+width: 90px;
+height: 35px;
+font-size: 1.2em;
+}
+
+
+header .left-side .dropdown .dropdown-select{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border: 1px solid #7cb094;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+header .left-side .dropdown .dropdown-menu{
+list-style-type: none;
+position: absolute;
+width: 100px;
+border: 1px solid #7cb094;
+border-radius: 5px;
+top: 35px;
+z-index: 10;
+opacity: 0;
+visibility: hidden;
+transition: all 0.5s ease;
+}
+
+header .left-side .dropdown:hover .dropdown-menu{
+   opacity: 1;
+   visibility: visible;
+  }
+
+header .left-side .dropdown .dropdown-menu li{
+ padding: 10px;
+ width: 100%;
+ border: 1px solid #7cb094;
+ cursor: pointer;
+  }
+  
+.header .left-side .search{
+width: 100%;
+height: 35px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+padding: 0 20px;
+border: 1px solid #7cb094;
+border-radius: 5px;
+margin-left: 15px;
+cursor: pointer;
+}
+
+
+.footercontainer{
+  display: flex;
+  height: 50px;
+  background-color: #8d7b62;
+  color: rgb(255, 254, 254);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.footercontainer h1{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.footercontainer ul {
+  display: flex;
+  list-style-type: none;
+  width: 300px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.footercontainer ul li a{
+  margin-left: 10px;
+  }
+
+  .footercontainer ul #face:hover{
+    color: #3023e1;
+  }
+
+
+  .footercontainer ul #git:hover{
+    color: #a1a0a5;
+  }
+
+
+  .footercontainer ul #mail:hover{
+    color: #e13923;
+  }

@@ -1,0 +1,65 @@
+.market-statistics{
+    width: 1240px;
+    height: 300px;
+    border: 1.5px solid #58e398;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.market-statistics .content{
+    position: relative;
+    padding-left: 50px;
+    top: -15px;
+    margin-bottom: 15px;
+}
+
+.market-statistics .content h2{
+    font-size: 1.6em;
+    background-color: #fff;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.market-statistics .content p{
+    font-size: 1.2em;
+    background-color: #fff;
+    width: 80%;
+}
+
+.market-statistics .box-content{
+margin: 0 auto;
+padding: 0 25px;
+height:200px;
+}
+
+.market-statistics .box-content ul{
+ list-style-type: none;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ height: 100%;
+}
+
+.market-statistics .box-content ul li{
+height: 60px;
+border-bottom: 1px solid aqua;
+justify-content: space-between;
+align-items: center;
+margin-right: 5px;
+}
+
+.market-statistics .box-content ul li span{
+  width: 50%;
+  align-items: center;
+  padding-left: 15px;
+    }
+
+    .market-statistics .box-content ul li span h3{
+      padding-left: 10px;
+          }
+          
+
+
+.market-statistics .box-content ul li h3{
+padding-right: 5px;
+}

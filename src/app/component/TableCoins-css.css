@@ -1,0 +1,135 @@
+.table-coins {}
+
+.table-coins .table-caption {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0 10%;
+}
+
+.table-coins .table-caption .active {
+  background-color: aqua;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.table-coins .table-content {
+  margin: 10px auto;
+
+}
+
+.table-coins .table-content .header-table {
+  list-style-type: none;
+  display: flex;
+  border-bottom: 1px solid #58e398;
+  padding: 0 5%;
+  border-top: 1px solid  #58e398;
+}
+
+
+.table-coins .table-content .header-table li {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  width: 30%;
+}
+.table-coins .table-content .header-table li:first-child {
+  width: 50%;
+  font-weight: 400;
+}
+.table-coins .table-content a ul li:first-child {
+  width: 50%;
+  font-weight: 400;
+}
+
+.table-coins .table-content a ul li:first-child img {
+  margin: 0 10px;
+  width: 25px;
+}
+
+.table-coins .table-content a {
+  text-decoration: none;
+  color: #111;
+  width: auto;
+  height: 60px;
+
+}
+
+.table-coins .table-content a ul {
+  list-style-type: none;
+  display: flex;
+  border-bottom: 1px solid #58e398;
+  padding: 0 5%;
+}
+
+
+.table-coins .table-content a ul li {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  width: 30%;
+  font-weight: 700;
+}
+
+.table-coins .table-content a ul li:first-child {
+  width: 50%;
+  font-weight: 400;
+}
+
+.table-coins .table-content a ul li:first-child img {
+  margin: 0 10px;
+  width: 25px;
+}
+
+.table-coins .table-footer {
+  margin: 0 auto;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.table-coins .table-footer .previous-next {
+  height: 40px;
+  width: 55px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: deepskyblue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.table-coins .table-footer .disEnabled {
+  background-color: #fff;
+  border: 1px solid rgb(46, 47, 48);
+  color: #111;
+}
+
+
+.table-coins .table-footer .page {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.table-coins .table-footer .page:active {
+  background-color: #111;
+  color: rgb(247, 247, 247);
+}
+
+.table-coins .table-footer .active {
+  background-color: #111;
+  color: rgb(247, 247, 247);
+}
