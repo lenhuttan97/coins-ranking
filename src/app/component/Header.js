@@ -37,7 +37,7 @@ function Header(props) {
                 <h4>Discover BetFury - Leading Crypto Casino</h4>
             </div> }
             <div className='left-side swarp'>
-                <div className="dropdown">
+                {/* <div className="dropdown">
                     <div className='dropdown-select'>
                         <span>{volume}</span>
                         <ion-icon name="caret-down-outline"></ion-icon>
@@ -50,7 +50,7 @@ function Header(props) {
                         <li onClick={() => setVolume("7d") }>7d</li>
                         <li onClick={() => setVolume("30d") }>30d</li>
                     </ul>
-                </div>
+                </div> */}
                 <div className='search'
                   onClick={() => setIsSearch(!isSearch)                  
                   }>

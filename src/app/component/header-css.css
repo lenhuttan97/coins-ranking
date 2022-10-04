@@ -88,7 +88,7 @@ header .left-side .dropdown .dropdown-menu li{
   }
   
 .header .left-side .search{
-width: 100%;
+/* width: 100%; */
 height: 35px;
 display: flex;
 justify-content:space-around;
