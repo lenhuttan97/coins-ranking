@@ -16,7 +16,7 @@ function Header(props) {
           if (event.key === 'Enter') {
             dispatch(getSearchCoins(event.target.value));
             setIsSearch(false);
-            window.location.href = '/';
+            // window.location.href = '/search';
           }
         }
     

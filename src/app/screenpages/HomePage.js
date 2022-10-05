@@ -15,8 +15,10 @@ function HomePage(props) {
     const [listCoins, setListCoins] = useState();
     const dispatch = useDispatch();
 
+    const search = props.search;
+
     useEffect(() => {
-        if (!isFisrt) {
+        if (!isFisrt && search) {
             dispatch(setCurentPage(0));
             dispatch(getListCoins(0));
             setIsFisrt(true);
